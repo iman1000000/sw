@@ -11,6 +11,7 @@ body {
 }
 </style>
 </head>
+<body>
 <textarea id=t></textarea>
 <button onclick=eval(t.value)>Run</button>
 
@@ -20,3 +21,4 @@ navigator.serviceWorker.register('service-worker.js');
 var init = localStorage.getItem('init');
 if (init) eval(init);
 </script>
+</body>
