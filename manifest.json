@@ -1,0 +1,8 @@
+{
+  "short_name": "Service Worker test",
+  "name": "Service Worker test",
+  "start_url": "/sw/sw.html",
+  "display": "standalone",
+  "orientation": "landscape"
+}
+

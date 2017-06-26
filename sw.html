@@ -1,4 +1,15 @@
-:)
+<head>
+    <meta name="viewport" content="width=device-width">
+    <link rel="manifest" href="/manifest.json">
+<style>
+#t {
+    width: 100%;
+    height: 250px;
+}
+</style>
+</head>
+<textarea id=t></textarea>
+<button onclick=eval(t.value)>Run</button>
 
 <script>
 navigator.serviceWorker.register('service-worker.js');
