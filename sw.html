@@ -4,7 +4,10 @@
 <style>
 #t {
     width: 100%;
-    height: 250px;
+    height: 80%;
+}
+body {
+    margin: 0px;
 }
 </style>
 </head>
@@ -13,4 +16,7 @@
 
 <script>
 navigator.serviceWorker.register('service-worker.js');
+
+var init = localStorage.getItem('init');
+if (init) eval(init);
 </script>
